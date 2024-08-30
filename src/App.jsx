@@ -41,14 +41,7 @@ function App() {
   const handleRegister = (e) => {
     e.preventDefault()
     if (firstname && lastname && dob && email && mobile && gender && address && course) {
-      alert(`Registered Successfully \n 
-        Name : ${firstname + ' ' + lastname} \n 
-        Date of Birth : ${dob} \n 
-        E-mail : ${email} \n
-        Mobile : ${mobile} \n 
-        Gender : ${gender} \n 
-        Address : ${address} \n 
-        Course : ${course}`)
+      alert(`Registered Successfully \n Name : ${firstname + ' ' + lastname} \n Date of Birth : ${dob} \n E-mail : ${email} \n Mobile : ${mobile} \n Gender : ${gender} \n Address : ${address} \n Course : ${course}`)
     } else {
       alert(`Please fill the form completely`)
     }
